@@ -21,7 +21,7 @@ if (numero > 0) {
 
 //exemplo 2 : condicional composta (IF/ElSE)
 let aluno = "João";
-let nota1 = 9;
+let nota1 = 8;
 let nota2 = 9;
 let media = (nota1+nota2) /2;
 
@@ -54,3 +54,19 @@ if (media < 3) {
     desempenho = "ótimo"
 }
 console.log(desempenho);
+
+let faltas = 14;
+console.log(`Faltas: ${faltas}`);
+
+//if ( Media >= 7) {
+
+// && -> operador lógico E
+// Usado quando precisamos avaliar mais de uma condição ao mesmo tempo.
+
+if(media >= 7 && faltas <15) {
+    situacao = "aprovado";
+} else {
+    situacao = "reprovado";
+}
+
+console.log(situacao);
